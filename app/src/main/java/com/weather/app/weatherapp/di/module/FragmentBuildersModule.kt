@@ -1,9 +1,9 @@
 package com.weather.app.weatherapp.di.module
 
-import com.weather.app.weatherapp.ui.dashboard.DashboardFragment
-import com.weather.app.weatherapp.ui.search.SearchFragment
-import com.weather.app.weatherapp.ui.splash.SplashFragment
-import com.weather.app.weatherapp.ui.weather_detail.WeatherDetailFragment
+import com.weather.app.weatherapp.view.dashboard.DashboardFragment
+import com.weather.app.weatherapp.view.search.SearchFragment
+import com.weather.app.weatherapp.view.splash.SplashFragment
+import com.weather.app.weatherapp.view.weather_detail.WeatherDetailFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

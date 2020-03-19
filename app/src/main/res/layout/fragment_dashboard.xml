@@ -7,11 +7,11 @@
 
         <variable
             name="viewModel"
-            type="com.weather.app.weatherapp.ui.dashboard.DashboardFragmentViewModel" />
+            type="com.weather.app.weatherapp.view.dashboard.DashboardFragmentViewModel" />
 
         <variable
             name="viewState"
-            type="com.weather.app.weatherapp.ui.dashboard.ForecastViewState" />
+            type="com.weather.app.weatherapp.view.dashboard.ForecastViewState" />
     </data>
 
     <RelativeLayout
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:fitsSystemWindows="true"
-        tools:context=".ui.dashboard.DashboardFragment">
+        tools:context=".view.dashboard.DashboardFragment">
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/scrollView"

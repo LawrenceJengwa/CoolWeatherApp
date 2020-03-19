@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.weather.app.weatherapp.ui.dashboard.forecast.ForecastItemViewModel" />
+            type="com.weather.app.weatherapp.view.dashboard.forecast.ForecastItemViewModel" />
     </data>
 
     <RelativeLayout

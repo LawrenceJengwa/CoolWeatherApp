@@ -17,7 +17,7 @@
         tools:targetApi="m">
 
         <activity
-            android:name="com.weather.app.weatherapp.ui.main.MainActivity"
+            android:name="com.weather.app.weatherapp.view.main.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

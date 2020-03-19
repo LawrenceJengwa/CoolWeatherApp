@@ -9,7 +9,7 @@
 
         <variable
             name="viewState"
-            type="com.weather.app.weatherapp.ui.dashboard.CurrentWeatherViewState" />
+            type="com.weather.app.weatherapp.view.dashboard.CurrentWeatherViewState" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

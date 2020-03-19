@@ -2,7 +2,7 @@ package com.weather.app.weatherapp.viewState
 
 import android.os.Build
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.weather.app.weatherapp.ui.search.SearchViewState
+import com.weather.app.weatherapp.view.search.SearchViewState
 import com.weather.app.weatherapp.utils.domain.Status
 import com.google.common.truth.Truth
 import org.junit.Test

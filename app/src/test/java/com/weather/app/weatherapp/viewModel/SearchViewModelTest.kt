@@ -7,8 +7,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.weather.app.weatherapp.domain.usecase.SearchCitiesUseCase
-import com.weather.app.weatherapp.ui.search.SearchViewModel
-import com.weather.app.weatherapp.ui.search.SearchViewState
+import com.weather.app.weatherapp.view.search.SearchViewModel
+import com.weather.app.weatherapp.view.search.SearchViewState
 import com.weather.app.weatherapp.utils.domain.Status
 import com.google.common.truth.Truth
 import io.mockk.MockKAnnotations

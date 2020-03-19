@@ -1,7 +1,7 @@
 package com.weather.app.weatherapp.di.module
 
 import com.weather.app.weatherapp.di.scope.PerActivity
-import com.weather.app.weatherapp.ui.main.MainActivity
+import com.weather.app.weatherapp.view.main.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

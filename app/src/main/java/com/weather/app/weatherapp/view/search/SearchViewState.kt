@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.search
+package com.weather.app.weatherapp.view.search
 
 import com.weather.app.weatherapp.core.BaseViewState
 import com.weather.app.weatherapp.db.entity.CitiesForSearchEntity

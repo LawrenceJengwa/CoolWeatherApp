@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.splash
+package com.weather.app.weatherapp.view.splash
 
 import android.content.SharedPreferences
 import com.weather.app.weatherapp.core.BaseViewModel

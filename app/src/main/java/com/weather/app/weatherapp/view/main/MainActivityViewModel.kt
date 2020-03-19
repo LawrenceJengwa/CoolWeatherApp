@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.main
+package com.weather.app.weatherapp.view.main
 
 import androidx.databinding.ObservableField
 import com.weather.app.weatherapp.core.BaseViewModel

@@ -5,8 +5,8 @@ import androidx.lifecycle.map
 import com.weather.app.weatherapp.core.Constants
 import com.weather.app.weatherapp.db.entity.ForecastEntity
 import com.weather.app.weatherapp.repo.ForecastRepository
-import com.weather.app.weatherapp.ui.dashboard.ForecastMapper
-import com.weather.app.weatherapp.ui.dashboard.ForecastViewState
+import com.weather.app.weatherapp.view.dashboard.ForecastMapper
+import com.weather.app.weatherapp.view.dashboard.ForecastViewState
 import com.weather.app.weatherapp.utils.UseCaseLiveData
 import com.weather.app.weatherapp.utils.domain.Resource
 import javax.inject.Inject

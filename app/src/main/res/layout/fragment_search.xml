@@ -7,11 +7,11 @@
 
         <variable
             name="viewModel"
-            type="com.weather.app.weatherapp.ui.search.SearchViewModel" />
+            type="com.weather.app.weatherapp.view.search.SearchViewModel" />
 
         <variable
             name="viewState"
-            type="com.weather.app.weatherapp.ui.search.SearchViewState" />
+            type="com.weather.app.weatherapp.view.search.SearchViewState" />
 
     </data>
 

@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.weather.app.weatherapp.ui.splash.SplashFragmentViewModel" />
+            type="com.weather.app.weatherapp.view.splash.SplashFragmentViewModel" />
     </data>
 
     <RelativeLayout
@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/splash_bg"
         android:fitsSystemWindows="true"
-        tools:context=".ui.splash.SplashFragment">
+        tools:context=".view.splash.SplashFragment">
 
         <ImageView
             android:id="@+id/imageViewBigCloud"

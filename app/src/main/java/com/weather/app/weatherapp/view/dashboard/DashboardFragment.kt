@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.dashboard
+package com.weather.app.weatherapp.view.dashboard
 
 import android.transition.TransitionInflater
 import androidx.navigation.fragment.FragmentNavigator
@@ -12,10 +12,9 @@ import com.weather.app.weatherapp.di.Injectable
 import com.weather.app.weatherapp.domain.model.ListItem
 import com.weather.app.weatherapp.domain.usecase.CurrentWeatherUseCase
 import com.weather.app.weatherapp.domain.usecase.ForecastUseCase
-import com.weather.app.weatherapp.ui.dashboard.forecast.ForecastAdapter
-import com.weather.app.weatherapp.ui.main.MainActivity
+import com.weather.app.weatherapp.view.dashboard.forecast.ForecastAdapter
+import com.weather.app.weatherapp.view.main.MainActivity
 import com.weather.app.weatherapp.utils.extensions.isNetworkAvailable
-import com.weather.app.weatherapp.utils.extensions.observeWith
 
 class DashboardFragment : BaseFragment<DashboardFragmentViewModel, FragmentDashboardBinding>(R.layout.fragment_dashboard, DashboardFragmentViewModel::class.java), Injectable {
 

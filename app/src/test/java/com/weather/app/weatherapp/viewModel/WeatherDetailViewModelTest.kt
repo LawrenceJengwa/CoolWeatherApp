@@ -8,7 +8,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.weather.app.weatherapp.db.WeatherDatabase
 import com.weather.app.weatherapp.db.dao.ForecastDao
 import com.weather.app.weatherapp.domain.datasource.forecast.ForecastLocalDataSource
-import com.weather.app.weatherapp.ui.weather_detail.WeatherDetailViewModel
+import com.weather.app.weatherapp.view.weather_detail.WeatherDetailViewModel
 import com.weather.app.weatherapp.util.createSampleForecastResponse
 import com.weather.app.weatherapp.util.getOrAwaitValue
 import com.google.common.truth.Truth

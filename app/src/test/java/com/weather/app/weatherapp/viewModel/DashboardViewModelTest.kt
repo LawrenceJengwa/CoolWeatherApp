@@ -8,9 +8,9 @@ import androidx.lifecycle.Observer
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.weather.app.weatherapp.domain.usecase.CurrentWeatherUseCase
 import com.weather.app.weatherapp.domain.usecase.ForecastUseCase
-import com.weather.app.weatherapp.ui.dashboard.CurrentWeatherViewState
-import com.weather.app.weatherapp.ui.dashboard.DashboardFragmentViewModel
-import com.weather.app.weatherapp.ui.dashboard.ForecastViewState
+import com.weather.app.weatherapp.view.dashboard.CurrentWeatherViewState
+import com.weather.app.weatherapp.view.dashboard.DashboardFragmentViewModel
+import com.weather.app.weatherapp.view.dashboard.ForecastViewState
 import com.weather.app.weatherapp.utils.domain.Status
 import com.google.common.truth.Truth
 import io.mockk.MockKAnnotations

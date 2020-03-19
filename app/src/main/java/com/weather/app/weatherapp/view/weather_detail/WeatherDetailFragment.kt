@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.weather_detail
+package com.weather.app.weatherapp.view.weather_detail
 
 import android.transition.TransitionInflater
 import androidx.navigation.fragment.findNavController
@@ -8,8 +8,7 @@ import com.weather.app.weatherapp.core.BaseFragment
 import com.weather.app.weatherapp.databinding.FragmentWeatherDetailBinding
 import com.weather.app.weatherapp.di.Injectable
 import com.weather.app.weatherapp.domain.model.ListItem
-import com.weather.app.weatherapp.ui.weather_detail.weatherHourOfDay.WeatherHourOfDayAdapter
-import com.weather.app.weatherapp.utils.extensions.observeWith
+import com.weather.app.weatherapp.view.weather_detail.weatherHourOfDay.WeatherHourOfDayAdapter
 import io.reactivex.disposables.CompositeDisposable
 
 class WeatherDetailFragment : BaseFragment<WeatherDetailViewModel, FragmentWeatherDetailBinding>(R.layout.fragment_weather_detail, WeatherDetailViewModel::class.java), Injectable {

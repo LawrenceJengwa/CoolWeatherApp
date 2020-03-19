@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.weather_detail.weatherHourOfDay
+package com.weather.app.weatherapp.view.weather_detail.weatherHourOfDay
 
 import androidx.databinding.ObservableField
 import com.weather.app.weatherapp.core.BaseViewModel

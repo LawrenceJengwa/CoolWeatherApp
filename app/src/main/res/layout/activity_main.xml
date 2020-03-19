@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.weather.app.weatherapp.ui.main.MainActivityViewModel" />
+            type="com.weather.app.weatherapp.view.main.MainActivityViewModel" />
 
     </data>
 
@@ -21,7 +21,7 @@
             android:id="@+id/rootView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".ui.main.MainActivity">
+            tools:context=".view.main.MainActivity">
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"

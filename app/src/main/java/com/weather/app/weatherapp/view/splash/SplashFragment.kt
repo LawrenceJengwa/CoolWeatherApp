@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.splash
+package com.weather.app.weatherapp.view.splash
 
 import android.graphics.Color
 import androidx.navigation.fragment.findNavController
@@ -8,8 +8,6 @@ import com.weather.app.weatherapp.core.Constants
 import com.weather.app.weatherapp.databinding.FragmentSplashBinding
 import com.weather.app.weatherapp.di.Injectable
 import com.mikhaellopez.rxanimation.*
-import com.weather.app.weatherapp.utils.extensions.hide
-import com.weather.app.weatherapp.utils.extensions.show
 import io.reactivex.disposables.CompositeDisposable
 
 class SplashFragment : BaseFragment<SplashFragmentViewModel, FragmentSplashBinding>(R.layout.fragment_splash, SplashFragmentViewModel::class.java), Injectable {

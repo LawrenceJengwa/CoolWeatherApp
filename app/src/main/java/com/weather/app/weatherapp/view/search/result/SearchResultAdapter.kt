@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.search.result
+package com.weather.app.weatherapp.view.search.result
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

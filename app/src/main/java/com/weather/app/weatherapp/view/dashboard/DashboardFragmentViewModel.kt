@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.dashboard
+package com.weather.app.weatherapp.view.dashboard
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData

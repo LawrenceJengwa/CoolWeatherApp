@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.dashboard
+package com.weather.app.weatherapp.view.dashboard
 
 import com.weather.app.weatherapp.domain.model.ListItem
 import com.weather.app.weatherapp.utils.Mapper

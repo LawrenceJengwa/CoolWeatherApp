@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.dashboard.forecast
+package com.weather.app.weatherapp.view.dashboard.forecast
 
 import android.view.LayoutInflater
 import android.view.View

@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.search
+package com.weather.app.weatherapp.view.search
 
 import android.widget.EditText
 import android.widget.ImageView
@@ -12,10 +12,8 @@ import com.weather.app.weatherapp.databinding.FragmentSearchBinding
 import com.weather.app.weatherapp.db.entity.CitiesForSearchEntity
 import com.weather.app.weatherapp.di.Injectable
 import com.weather.app.weatherapp.domain.usecase.SearchCitiesUseCase
-import com.weather.app.weatherapp.ui.main.MainActivity
-import com.weather.app.weatherapp.ui.search.result.SearchResultAdapter
-import com.weather.app.weatherapp.utils.extensions.hideKeyboard
-import com.weather.app.weatherapp.utils.extensions.observeWith
+import com.weather.app.weatherapp.view.main.MainActivity
+import com.weather.app.weatherapp.view.search.result.SearchResultAdapter
 import com.weather.app.weatherapp.utils.extensions.tryCatch
 
 class SearchFragment : BaseFragment<SearchViewModel, FragmentSearchBinding>(R.layout.fragment_search, SearchViewModel::class.java), Injectable {

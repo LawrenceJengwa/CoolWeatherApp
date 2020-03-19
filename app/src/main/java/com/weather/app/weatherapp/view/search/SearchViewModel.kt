@@ -1,4 +1,4 @@
-package com.weather.app.weatherapp.ui.search
+package com.weather.app.weatherapp.view.search
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData

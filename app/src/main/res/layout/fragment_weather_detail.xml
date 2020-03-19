@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.weather.app.weatherapp.ui.weather_detail.WeatherDetailViewModel" />
+            type="com.weather.app.weatherapp.view.weather_detail.WeatherDetailViewModel" />
     </data>
 
 
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:fitsSystemWindows="true"
-        tools:context=".ui.weather_detail.WeatherDetailFragment">
+        tools:context=".view.weather_detail.WeatherDetailFragment">
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:id="@+id/coordinatorLayout"

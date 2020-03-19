@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.map
 import com.weather.app.weatherapp.db.entity.CitiesForSearchEntity
 import com.weather.app.weatherapp.repo.SearchCitiesRepository
-import com.weather.app.weatherapp.ui.search.SearchViewState
+import com.weather.app.weatherapp.view.search.SearchViewState
 import com.weather.app.weatherapp.utils.UseCaseLiveData
 import com.weather.app.weatherapp.utils.domain.Resource
 import javax.inject.Inject
