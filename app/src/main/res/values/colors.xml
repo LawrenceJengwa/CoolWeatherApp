@@ -10,4 +10,8 @@
     <color name="mainTextColor">#130E51</color>
     <color name="chipItemBackgroundColor">#1AADA7FE</color>
     <color name="chipTextColor">#5D50FE</color>
+
+    <color name="sunnyGreen">#47AB2F</color>
+    <color name="cloudyColor">#54717A</color>
+    <color name="rainyColor">#5D50FE</color>
 </resources>

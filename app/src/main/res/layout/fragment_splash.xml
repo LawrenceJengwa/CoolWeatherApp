@@ -79,7 +79,7 @@
             android:gravity="center"
             android:paddingStart="60dp"
             android:paddingEnd="60dp"
-            android:text="@string/explore"
+            android:text="@string/get_weather"
             android:textAllCaps="true"
             android:textAppearance="@style/AppTheme"
             android:textColor="@android:color/black"

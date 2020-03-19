@@ -43,9 +43,9 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            zipAlignEnabled true
+            //zipAlignEnabled true
             shrinkResources true
-            debuggable false
+            debuggable true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testCoverageEnabled false
         }
@@ -72,6 +72,9 @@ android {
     dataBinding {
         enabled = true
     }
+    kapt {
+        useBuildCache = false
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -85,6 +88,7 @@ android {
     testOptions.unitTests {
         includeAndroidResources = true
     }
+    kapt { generateStubs = true }
 }
 
 dependencies {
