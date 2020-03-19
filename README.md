@@ -46,7 +46,7 @@ Inspired by [Ramonyv](https://www.uplabs.com/posts/weather-app-freebie) and weat
 
 <h2 id="license">License</h2>
 
-<pre><code>Copyright (c) 2019 Furkan Aşkın
+<pre><code>Copyright (c) 2020 Lawrence Jengwa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
