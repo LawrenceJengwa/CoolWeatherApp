@@ -9,10 +9,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.annotation.Config
 
-/**
- * Created by Furkan on 2019-11-26
- */
-
 @Config(sdk = [Build.VERSION_CODES.P])
 @RunWith(AndroidJUnit4::class)
 class CurrentWeatherViewStateTest {
