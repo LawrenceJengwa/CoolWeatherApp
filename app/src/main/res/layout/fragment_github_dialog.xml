@@ -36,7 +36,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:gravity="center"
-        android:text="@string/about_app_full_text"
+        android:text="App"
         android:textColor="@color/colorPrimary" />
 
     <LinearLayout
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="@string/see_on_github"
+            android:text="LawrenceApp"
             android:textColor="@android:color/black" />
 
     </LinearLayout>
