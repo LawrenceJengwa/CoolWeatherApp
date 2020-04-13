@@ -1,16 +1,14 @@
 package com.weather.app.weatherapp.utils
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.weather.app.weatherapp.R
-import kotlinx.android.synthetic.main.fragment_github_dialog.*
+import kotlinx.android.synthetic.main.fragment_about_dialog.*
 
-class GithubDialog : DialogFragment() {
+class AboutDialog : DialogFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -18,16 +16,13 @@ class GithubDialog : DialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_github_dialog, container, false)
+        return inflater.inflate(R.layout.fragment_about_dialog, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         linearLayoutSeeOnGithub.setOnClickListener {
-            val url = getString(R.string.github_url)
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+
         }
     }
 }
