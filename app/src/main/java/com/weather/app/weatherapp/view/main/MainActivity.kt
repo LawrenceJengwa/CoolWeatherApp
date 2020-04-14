@@ -16,6 +16,8 @@ import com.weather.app.weatherapp.R
 import com.weather.app.weatherapp.core.BaseActivity
 import com.weather.app.weatherapp.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
+import com.weather.app.weatherapp.utils.extensions.hide
+import com.weather.app.weatherapp.utils.extensions.show
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
