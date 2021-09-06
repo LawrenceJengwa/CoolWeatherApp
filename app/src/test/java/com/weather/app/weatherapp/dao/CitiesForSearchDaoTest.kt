@@ -50,7 +50,7 @@ class CitiesForSearchDaoTest {
     @Test
     fun `insert one entity and db count must be 1`() {
         // When
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("aushı1h3", "Istanbul"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("aushı1h3", "Pretoria"))
         // Then
         val count = citiesForSearchDao.getCount()
         Truth.assertThat(count).isEqualTo(1)
@@ -59,8 +59,8 @@ class CitiesForSearchDaoTest {
     @Test
     fun `insert two entities and get one of them with city name`() {
         // When
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("kaldsadj", "Ankara"))
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("opıjıwqk", "Istanbul"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("kaldsadj", "Cape"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("opıjıwqk", "Harare"))
 
         // Then
         val entityWithSearchQuery = citiesForSearchDao.getCityByName("stan").getOrAwaitValue()
@@ -70,8 +70,8 @@ class CitiesForSearchDaoTest {
     @Test
     fun `insert two entities and get one of them`() {
         // When
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("kaldsadj", "Ankara"))
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("opıjıwqk", "Istanbul"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("kaldsadj", "Soweto"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("opıjıwqk", "Maputo"))
 
         // Then
         val entityWithSearchQuery = citiesForSearchDao.getCities().getOrAwaitValue()
@@ -81,9 +81,9 @@ class CitiesForSearchDaoTest {
     @Test
     fun `insert multiple entites and then delete all finally count must be zero`() {
         // When
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("kaldsadj", "Ankara"))
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("opıjıwqk", "Istanbul"))
-        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("asdadoasd", "Adana"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("kaldsadj", "Lusaka"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("opıjıwqk", "Bulawayo"))
+        citiesForSearchDao.insertCity(generateCitiesForSearchEntity("asdadoasd", "Joburg"))
 
         val count = citiesForSearchDao.getCount()
         Truth.assertThat(count).isEqualTo(3)

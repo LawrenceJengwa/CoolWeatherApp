@@ -9,7 +9,7 @@ import com.weather.app.weatherapp.databinding.ItemWeatherHourOfDayBinding
 import com.weather.app.weatherapp.domain.model.ListItem
 
 /**
- * Created by Furkan on 2020-03-15
+ * Created by Lawrence
  */
 
 class WeatherHourOfDayAdapter(private val callBack: (ListItem) -> Unit) : BaseAdapter<ListItem>(diffCallback) {
